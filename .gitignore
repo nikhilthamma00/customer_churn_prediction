@@ -205,3 +205,31 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# Open the .gitignore file
+# Add these lines at the bottom:
+
+# Data files (uncomment if data is large/sensitive)
+# data/*.csv
+# data/*.xlsx
+# *.pkl
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Models (can be large)
+models/*.pkl
+models/*.h5
+models/*.joblib
+models/*.sav
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Mac/Windows
+.DS_Store
+Thumbs.db
